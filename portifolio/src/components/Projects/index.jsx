@@ -21,6 +21,99 @@ export const Projects = () => {
       </div>
       <section className="ProjectsStyle__container">
         <div className="ProjectsStyle__container--div">
+          <h3 className="ProjectsStyle__container--title">WittyEnglish4You</h3>
+          <div className="ProjectsStyle__container--linguagemDiv">
+            <p>Linguagem:</p>
+            <div className="ProjectsStyle__container--linguagem">
+              <TypographySubtitles>JavaScript</TypographySubtitles>
+            </div>
+            <div className="ProjectsStyle__container--linguagem">
+              <TypographySubtitles>React</TypographySubtitles>
+            </div>
+            <div className="ProjectsStyle__container--linguagem">
+              <TypographySubtitles>HTML</TypographySubtitles>
+            </div>
+          </div>
+          <TypographySubtitles>
+            WebSite de uma escola de Inglês, que tem como foco o aprimoramento
+            do imgles para quem planeja ir ao canada.
+          </TypographySubtitles>
+          <div className="ProjectsStyle__container--containerLink">
+            <div>
+              <a
+                className="ProjectsStyle__container--link"
+                target="blank"
+                href="https://witty-english-school.vercel.app/"
+              >
+                <img src={share} alt="" />
+                Aplicação
+              </a>
+            </div>
+            <div className="ProjectsStyle__container--containerLinkGit">
+              <a
+                className="ProjectsStyle__container--linkGit"
+                target="blank"
+                href="https://github.com/MewOkami/Witty_English_School"
+              >
+                <img
+                  className="ProjectsStyle__container--linkImageGit"
+                  src={github}
+                  alt=""
+                />
+                Git Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="ProjectsStyle__container--div">
+          <h3 className="ProjectsStyle__container--title">My-Movies</h3>
+          <div className="ProjectsStyle__container--linguagemDiv">
+            <p>Linguagem:</p>
+            <div className="ProjectsStyle__container--linguagem">
+              <TypographySubtitles>Java</TypographySubtitles>
+            </div>
+            <div className="ProjectsStyle__container--linguagem">
+              <TypographySubtitles>Spring</TypographySubtitles>
+            </div>
+            <div className="ProjectsStyle__container--linguagem">
+              <TypographySubtitles>API</TypographySubtitles>
+            </div>
+          </div>
+          <TypographySubtitles>
+            Esse projeto foi desenvolvido Em Java ultilizando o SpringBoot, o
+            intuito desse projeto é explorar a tecnologia e aprimorar mais meu
+            conhecimento.
+          </TypographySubtitles>
+          <div className="ProjectsStyle__container--containerLink">
+            <div>
+              <a
+                className="ProjectsStyle__container--link"
+                target="blank"
+                href="https://my-movies-production.up.railway.app/swagger-ui/index.html"
+              >
+                <img src={share} alt="" />
+                Aplicação
+              </a>
+            </div>
+            <div className="ProjectsStyle__container--containerLinkGit">
+              <a
+                className="ProjectsStyle__container--linkGit"
+                target="blank"
+                href="https://github.com/MewOkami/my-movies"
+              >
+                <img
+                  className="ProjectsStyle__container--linkImageGit"
+                  src={github}
+                  alt=""
+                />
+                Git Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="ProjectsStyle__container--div">
           <h3 className="ProjectsStyle__container--title">Kenzie Hub</h3>
           <div className="ProjectsStyle__container--linguagemDiv">
             <p>Linguagem:</p>
